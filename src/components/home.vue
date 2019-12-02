@@ -2,87 +2,29 @@
   <section class="">
     <div class="preloader"></div>
     <siteheader/>
-    
-    <!--Form Back Drop-->
-    <div class="form-back-drop"></div>
-    
-    <!--Appointment Box-->
-    <section class="appointment-box">
-    	<div class="inner-box">
-            <div class="cross-icon"><span class="flaticon-cancel-1"></span></div>
-            <div class="title">
-                <h2>Get Appointment</h2>
-                <div class="separator"></div>
-            </div>
-            
-            <!--Appointment Form-->
-            <div class="appointment-form">
-                <form method="post" action="http://t.commonsupport.com/alfena/contact.html">
-
-                    <div class="form-group">
-                        <input type="text" name="text" value="" placeholder="Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" value="" placeholder="Email Address" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="phone" value="" placeholder="Phone no." required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="theme-btn btn-style-one">Submit now</button>
-                    </div>
-                    
-                </form>
-            </div>
-            
-            <!--Contact Info Box-->
-            <div class="contact-info-box">
-            	<ul class="info-list">
-                	<li>alfena@yousite.com</li>
-                    <li>+(000) 000 0000</li>
-                </ul>
-                <ul class="social-list clearfix">
-                	<li><a href="#">Facebook</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Google +</a></li>
-                    <li><a href="#">Instagram</a></li>
-                </ul>
-            </div>
-            
-        </div>
-    </section>
-    <!--End Consulting Form-->
-    
     <!--Main Banner-->
     <section class="main-banner">
     	<div class="bg-round-layer"></div>
         
     	<div class="auto-container">
-			<div class="row clearfix">
-            	
-                <!--Content Column-->
-                <div class="content-column col-lg-6 col-md-12 col-sm-12">
-                	<div class="inner-column wow slideInLeft">
-                    	<h2>Your Digital<br> Marketing Solution</h2>
-                        <div class="text">Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.leveling customer service .</div>
-                        <a href="#" class="theme-btn btn-style-two">Explore Now <span class="icon flaticon-next-3"></span></a>
-                    </div>
-                </div>
-                <!--Image Column-->
-                <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                	<div class="inner-column">
-						<div class="image paroller" data-paroller-factor="-0.15" data-paroller-factor-lg="-0.15" data-paroller-factor-md="-0.15" data-paroller-factor-sm="-0.15" data-paroller-type="foreground" data-paroller-direction="horizontal">
-							<img src="@/assets/img/resource/mokeup-1.png" alt="" />
-						</div>
-                    </div>
-                </div>
-                
+			  <div class="row clearfix">            	
+          <div class="content-column col-lg-6 col-md-12 col-sm-12">
+          <div class="inner-column wow slideInLeft">
+              <h2>VSCHEDULER</h2>
+              <div class="text">Schedule Meetings, Share Calenders And Get Alerts.</div>
+              <a href="#" class="theme-btn btn-style-two">Explore Now <span class="icon flaticon-next-3"></span></a>
             </div>
+          </div>
+          <!--Image Column-->
+          <div class="image-column col-lg-6 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <div class="image paroller" data-paroller-factor="-0.15" data-paroller-factor-lg="-0.15" data-paroller-factor-md="-0.15" data-paroller-factor-sm="-0.15" data-paroller-type="foreground" data-paroller-direction="horizontal">
+                <img src="@/assets/img/resource/mokeup-1.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!--End Main Banner-->
     
@@ -144,7 +86,7 @@
         
       </div>
     </section>
-    <!-- End Services Section -->
+    <sitefooter/>
   </section>
 </template>
 

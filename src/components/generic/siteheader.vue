@@ -5,7 +5,7 @@
         <div class="auto-container">
           <div class="clearfix">
             <div class="pull-left">
-              <div class="logo"><a href="index.html"><img src="@/assets/img/logo.png" alt="" title=""></a></div>
+              <div class="logo pt-3"><a href="index.html"><img src="@/assets/img/logo.png" style="width: 70px" alt="" title=""></a></div>
             </div>
                   
             <div class="pull-right">
@@ -20,11 +20,11 @@
                   </div>
                   <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                     <ul class="navigation clearfix">
-                      <li class="current dropdown"><router-link to="/">Home</router-link></li>
-                      <li><router-link to="/">About/ Features</router-link></li>
-                      <li><router-link to="/">Testimonies/ FAQ</router-link></li>
-                      <li><router-link to="/">Pricing</router-link></li>
-                      <li><router-link to="/">Sign up</router-link></li>
+                      <li><router-link to="/">Home</router-link></li>
+                      <li><router-link to="/about">About</router-link></li>
+                      <li><router-link to="/pricing">Pricing</router-link></li>
+                      <li><router-link to="/contact">Contact Us</router-link></li>
+                      <li><router-link to="/signup">Sign up</router-link></li>
                     </ul>
                   </div>
                 </nav>
@@ -41,10 +41,12 @@ import menulistitem from "@/components/generic/menulistitem";
 import menulistgroup from "@/components/generic/menulistgroup";
 const submenu = [
     { to: "/", icon: "", title:"Home" },
-    { to: "/ourstory", icon: "", title: "Our Story" },
+    { to: "/about", icon: "", title: "About / Features" },
     { to: "/product", icon: "", title: "Products" },
-    { to: "/faq", icon: "", title: "FAQs" },
-    { to: "/blog", icon: "", title: "Blog" },
+    { to: "/faq", icon: "", title: "Testimonies / FAQ" },
+    { to: "/pricing", icon: "", title: "Pricing" },
+    { to: "/contact", icon: "", title: "Contact Us" },
+    { to: "/signup", icon: "", title: "Sign up" },
 
 ];
 

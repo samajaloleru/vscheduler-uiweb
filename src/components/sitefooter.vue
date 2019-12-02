@@ -1,32 +1,87 @@
 <template>
-    <footer class="fl w-100 bg-near-black">
-        <div class="tc pa1 bg-near-white w-100 f7 black pv1">
-            <small class="tracked b"> Digital Tribe Multipurpose Cooperative Society (LSCS 16668) is licensed and regulated by the Lagos State Government.</small>
-        </div>
-        <div class="w-100 ph1 pv3 pv4-l flex items-center mw9 cf center">
-            <div class="fl w-100 w-40-ns flex items-center">
-                <span class="pl2">
-                    <i class="mr2 mr3-l f4 white fab fa-facebook-f"></i> 
-                    <i class="mr2 mr3-l f4 white fab fa-twitter"></i> 
-                    <i class="mr2 mr3-l f4 white fab fa-linkedin-in"></i> 
-                    <i class="f4 white fab fa-instagram"></i>
-                </span>
-            </div>
-            <div class="fl w-100 w-60-ns f7 tr white">
-                <div class="flex items-center float fr tracked">
-                    <span class="ttu">Digital</span> <span class="orange ph1 f2 fw1">|</span> TRIBE
-                    <span class="pointer">
-                        <i @click="scrollTop" class="pl3 fal fa-arrow-circle-up f1-l f2 orange hover-silver"></i>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="fl tc pa3 bg-orange near-white w-100 f7 fw5 tracked">
-            Copyright © {{date}} Digital Tribe MPCS &nbsp;  <span class="dn dib-l near-white">|</span>
-            <div class="w-100 cf dn-l pv1"></div> 
-            <router-link to="terms" class="near-white link ph1">Terms and Conditions</router-link> -
-            <router-link to="privacy" class="near-white link ph1">Privacy Policy</router-link> 
-        </div>
+    <footer class="main-footer">
+		<div class="auto-container">
+			<div class="button-box wow bounce" data-wow-delay="0ms" data-wow-duration="1500ms">
+				<a href="#" class="theme-btn btn-style-four">Sign Up</a>
+			</div>
+            <div class="widgets-section">
+            	<div class="clearfix">
+					
+                    <div class="footer-column">
+                    	<div class="footer-widget links-widget">
+							<h2>Company</h2>
+							<ul class="footer-list">
+								<li><a href="#">Company</a></li>
+								<li><a href="#">Features</a></li>
+								<li><a href="#">Pricing</a></li>
+							</ul>
+						</div>
+					</div>
+					
+                    <div class="footer-column">
+                    	<div class="footer-widget links-widget">
+							<h2>Download</h2>
+							<ul class="footer-list">
+								<li><a href="#">iOS</a></li>
+								<li><a href="#">Android</a></li>
+							</ul>
+						</div>
+					</div>
+					
+                    <div class="footer-column">
+                    	<div class="footer-widget links-widget">
+							<h2>Quick Link</h2>
+							<ul class="footer-list">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					
+                    <div class="footer-column">
+                    	<div class="footer-widget links-widget">
+							<h2>Support</h2>
+							<ul class="footer-list">
+								<li><a href="#">Documentation</a></li>
+								<li><a href="#">FAQ's</a></li>
+								<li><a href="#">Privacy</a></li>
+							</ul>
+						</div>
+					</div>
+					
+                    <div class="footer-column">
+                    	<div class="footer-widget links-widget">
+							<h2>Address</h2>
+							<ul class="footer-list">
+								<li>(+81) 9876543210</li>
+								<li>example@mail.com</li>
+								<li>North Carolina, USA</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="auto-container">
+				<div class="logo">
+					<a href="index.html"><img src="@/assets/img/logo.png" style="width: 70px" alt="" /></a>
+				</div>
+
+				<div class="copyright">Copyright © {{date}} Vscheduler . All Rights Reserved.</div>
+
+				<div class="social-nav">
+					<a href="#"><span class="fa fa-facebook"></span></a>
+					<a href="#"><span class="fa fa-twitter"></span></a>
+					<a href="#"><span class="fa fa-google-plus"></span></a>
+					<a href="#"><span class="fa fa-pinterest"></span></a>
+					<a href="#"><span class="fa fa-dribbble"></span></a>
+				</div>
+			</div>
+		</div>
     </footer>
 </template>
 

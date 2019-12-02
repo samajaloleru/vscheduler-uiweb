@@ -3,6 +3,7 @@ import Router from "vue-router";
 
 import home from "@/components/home"
 import about from "@/components/about"
+import contact from "@/components/contact"
 import faq from "@/components/faq"
 import pricing from "@/components/pricing"
 import signup from "@/components/signup"
@@ -22,6 +23,11 @@ export const router =  new Router({
             name: "about",
             path: '/about',
             component: about,
+        },
+        {
+            name: "contact",
+            path: '/contact',
+            component: contact,
         },
         {
             name: "faq",
