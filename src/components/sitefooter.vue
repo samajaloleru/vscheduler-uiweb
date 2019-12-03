@@ -18,9 +18,9 @@
                     	<div class="footer-widget links-widget">
 							<h2>RESOURCES</h2>
 							<ul class="footer-list">
-								<li><a href="#">Get Started</a></li>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Support</a></li>
+								<li><router-link to="/">Get Started</router-link></li>
+								<li><router-link to="/faq">FAQ</router-link></li>
+								<li><router-link to="/">Support</router-link></li>
 							</ul>
 						</div>
 					</div>
@@ -29,9 +29,9 @@
                     	<div class="footer-widget links-widget">
 							<h2>TERMS</h2>
 							<ul class="footer-list">
-								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Terms of Service</a></li>
-								<li><a href="#">Security Practices</a></li>
+								<li><router-link to="/privacy">Privacy Policy</router-link></li>
+								<li><router-link to="/term">Terms of Service</router-link></li>
+								<li><router-link to="/security">Security Practices</router-link></li>
 							</ul>
 						</div>
 					</div>

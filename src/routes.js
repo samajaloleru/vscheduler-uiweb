@@ -3,9 +3,10 @@ import Router from "vue-router";
 
 import home from "@/components/home"
 import about from "@/components/about"
-import contact from "@/components/contact"
+import term from "@/components/term"
+import security from "@/components/security"
 import faq from "@/components/faq"
-import pricing from "@/components/pricing"
+import privacy from "@/components/privacy"
 import signup from "@/components/signup"
 
 
@@ -25,9 +26,14 @@ export const router =  new Router({
             component: about,
         },
         {
-            name: "contact",
-            path: '/contact',
-            component: contact,
+            name: "term",
+            path: '/term',
+            component: term,
+        },
+        {
+            name: "security",
+            path: '/security',
+            component: security,
         },
         {
             name: "faq",
@@ -35,9 +41,9 @@ export const router =  new Router({
             component: faq,
         },
         {
-            name: "pricing",
-            path: '/pricing',
-            component: pricing,
+            name: "privacy",
+            path: '/privacy',
+            component: privacy,
         },
         {
           name: "signup",
