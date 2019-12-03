@@ -1,25 +1,26 @@
 <template>
-  <section class="">
+  <section class>
     <div class="preloader"></div>
-    <siteheader/>
+    <siteheader />
     <!--Main Banner-->
     <section class="main-banner">
-    	<div class="bg-round-layer"></div>
-        
-    	<div class="auto-container">
-			  <div class="row clearfix">            	
+      <div class="auto-container">
+        <div class="row clearfix">
           <div class="content-column col-lg-6 col-md-12 col-sm-12">
-          <div class="inner-column wow slideInLeft">
+            <div class="inner-column wow slideInLeft">
               <h2>VSCHEDULER</h2>
               <div class="text">Schedule Meetings, Share Calenders And Get Alerts.</div>
-              <a href="#" class="theme-btn btn-style-two">Explore Now <span class="icon flaticon-next-3"></span></a>
+              <a href="#" class="theme-btn btn-style-two">
+                Explore Now
+                <span class="icon flaticon-next-3"></span>
+              </a>
             </div>
           </div>
           <!--Image Column-->
           <div class="image-column col-lg-6 col-md-12 col-sm-12">
             <div class="inner-column">
-              <div class="image paroller" data-paroller-factor="-0.15" data-paroller-factor-lg="-0.15" data-paroller-factor-md="-0.15" data-paroller-factor-sm="-0.15" data-paroller-type="foreground" data-paroller-direction="horizontal">
-                <img src="@/assets/img/resource/mokeup-1.png" alt="" />
+              <div class="image">
+                <img src="@/assets/img/resource/app-1.png" alt />
               </div>
             </div>
           </div>
@@ -27,7 +28,7 @@
       </div>
     </section>
     <!--End Main Banner-->
-    
+
     <!-- Services Section -->
     <section class="services-section">
       <div class="auto-container">
@@ -35,58 +36,92 @@
         <div class="sec-title centered">
           <h2>The only app you will need</h2>
         </div>
-        
+
         <div class="row clearfix">
-          
           <!-- Services Block -->
           <div class="services-block col-lg-3 col-md-6 col-sm-12">
             <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
               <div class="icon-box">
                 <span class="icon flaticon-locked"></span>
               </div>
-              <h3><a href="feature.html">Safty</a></h3>
+              <h3>
+                <a href="feature.html">Safty</a>
+              </h3>
               <div class="text">Efficiently unleash cross-media information without.</div>
             </div>
           </div>
-          
+
           <!-- Services Block -->
           <div class="services-block col-lg-3 col-md-6 col-sm-12">
             <div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div class="icon-box">
                 <span class="icon flaticon-speed-meter"></span>
               </div>
-              <h3><a href="feature.html">Quick Access</a></h3>
+              <h3>
+                <a href="feature.html">Quick Access</a>
+              </h3>
               <div class="text">Efficiently unleash cross-media information without.</div>
             </div>
           </div>
-          
+
           <!-- Services Block -->
           <div class="services-block col-lg-3 col-md-6 col-sm-12">
             <div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
               <div class="icon-box">
                 <span class="icon flaticon-heart"></span>
               </div>
-              <h3><a href="feature.html">Easily manage</a></h3>
+              <h3>
+                <a href="feature.html">Easily manage</a>
+              </h3>
               <div class="text">Efficiently unleash cross-media information without.</div>
             </div>
           </div>
-          
+
           <!-- Services Block -->
           <div class="services-block col-lg-3 col-md-6 col-sm-12">
             <div class="inner-box wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
               <div class="icon-box">
                 <span class="icon flaticon-like-1"></span>
               </div>
-              <h3><a href="feature.html">24h Support</a></h3>
+              <h3>
+                <a href="feature.html">24h Support</a>
+              </h3>
               <div class="text">Efficiently unleash cross-media information without.</div>
             </div>
           </div>
-          
         </div>
-        
       </div>
     </section>
-    <sitefooter/>
+
+    <section class="app-section style-two">
+      <div class="auto-container">
+        <div class="row clearfix">
+          <!-- Image Column -->
+          <div class="image-column col-lg-6 col-md-12 col-md-12">
+            <div class="inner-column">
+              <div class="image">
+                <img src="@/assets/img/resource/app-1.png" alt />
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Column -->
+          <div class="content-column col-lg-6 col-md-12 col-md-12">
+            <div class="inner-column">
+              <h2>Give your visitor a smart digitalized experience</h2>
+              <div
+                class="text"
+              >Make easy the arrival of your visitor by digitized check-in. Transform the check-in system from sloppy documentation to an interactive organized environment, You will completely change how companies interact and connect with consumers, allowing users to concentrate on their work, generating valuable customer interaction.</div>
+              <a href="#" class="theme-btn btn-style-three">
+                Get to Access
+                <span class="icon flaticon-next-3"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <sitefooter />
   </section>
 </template>
 
@@ -108,7 +143,7 @@ export default {
       username: "",
       password: "",
       IsCompany: true,
-      hoverMember:false,
+      hoverMember: false
     };
   },
   methods: {

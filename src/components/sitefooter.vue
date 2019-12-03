@@ -2,60 +2,47 @@
     <footer class="main-footer">
 		<div class="auto-container">
 			<div class="button-box wow bounce" data-wow-delay="0ms" data-wow-duration="1500ms">
-				<a href="#" class="theme-btn btn-style-four">Sign Up</a>
+				<router-link class="theme-btn btn-style-four" to="/signup">Sign In</router-link>
 			</div>
             <div class="widgets-section">
-            	<div class="clearfix">
+            	<div class="clearfix row justify-content-center">
 					
-                    <div class="footer-column">
+                    <div class="footer-column col-3">
                     	<div class="footer-widget links-widget">
-							<h2>Company</h2>
+							<h2>ABOUT</h2>
+							<p class="footer-list">vScheduler is the most comprehensive system for end-to-end Visitor Management & Access Control.</p>
+						</div>
+					</div>
+					
+                    <div class="footer-column col-2">
+                    	<div class="footer-widget links-widget">
+							<h2>RESOURCES</h2>
 							<ul class="footer-list">
-								<li><a href="#">Company</a></li>
-								<li><a href="#">Features</a></li>
-								<li><a href="#">Pricing</a></li>
+								<li><a href="#">Get Started</a></li>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">Support</a></li>
 							</ul>
 						</div>
 					</div>
 					
-                    <div class="footer-column">
+                    <div class="footer-column col-2">
                     	<div class="footer-widget links-widget">
-							<h2>Download</h2>
+							<h2>TERMS</h2>
 							<ul class="footer-list">
-								<li><a href="#">iOS</a></li>
-								<li><a href="#">Android</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Terms of Service</a></li>
+								<li><a href="#">Security Practices</a></li>
 							</ul>
 						</div>
 					</div>
-					
-                    <div class="footer-column">
+
+                    <div class="footer-column col-2">
                     	<div class="footer-widget links-widget">
-							<h2>Quick Link</h2>
+							<h2>CONTACT</h2>
 							<ul class="footer-list">
-								<li><a href="#">About</a></li>
-								<li><a href="#">Blog</a></li>
-								<li><a href="#">Contact</a></li>
-							</ul>
-						</div>
-					</div>
-					
-                    <div class="footer-column">
-                    	<div class="footer-widget links-widget">
-							<h2>Support</h2>
-							<ul class="footer-list">
-								<li><a href="#">Documentation</a></li>
-								<li><a href="#">FAQ's</a></li>
-								<li><a href="#">Privacy</a></li>
-							</ul>
-						</div>
-					</div>
-					
-                    <div class="footer-column">
-                    	<div class="footer-widget links-widget">
-							<h2>Address</h2>
-							<ul class="footer-list">
-								<li>(+81) 9876543210</li>
-								<li>example@mail.com</li>
+								<li>234 809 310 7121</li>
+								<li>234 809 310 7125</li>
+								<li>sales@vscheduler.com</li>
 								<li>North Carolina, USA</li>
 							</ul>
 						</div>

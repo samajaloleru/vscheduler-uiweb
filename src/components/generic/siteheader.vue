@@ -21,10 +21,13 @@
                   <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                     <ul class="navigation clearfix">
                       <li><router-link to="/">Home</router-link></li>
-                      <li><router-link to="/about">About</router-link></li>
-                      <li><router-link to="/pricing">Pricing</router-link></li>
-                      <li><router-link to="/contact">Contact Us</router-link></li>
-                      <li><router-link to="/signup">Sign up</router-link></li>
+                      <li class="dropdown"><router-link to="/about">About us</router-link>
+                        <ul>
+                          <li><a href="index.html">Features</a></li>
+                          <li><router-link to="/pricing">Pricing</router-link></li>
+                        </ul>
+                      </li>
+                      <li><router-link to="/contact">Blog</router-link></li>
                     </ul>
                   </div>
                 </nav>
@@ -41,13 +44,11 @@ import menulistitem from "@/components/generic/menulistitem";
 import menulistgroup from "@/components/generic/menulistgroup";
 const submenu = [
     { to: "/", icon: "", title:"Home" },
-    { to: "/about", icon: "", title: "About / Features" },
+    { to: "/about", icon: "", title: "About" },
     { to: "/product", icon: "", title: "Products" },
     { to: "/faq", icon: "", title: "Testimonies / FAQ" },
     { to: "/pricing", icon: "", title: "Pricing" },
     { to: "/contact", icon: "", title: "Contact Us" },
-    { to: "/signup", icon: "", title: "Sign up" },
-
 ];
 
 export default {
